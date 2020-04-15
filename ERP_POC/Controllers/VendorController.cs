@@ -40,6 +40,7 @@ namespace ERP_POC.Controllers
         {
              return PartialView(UOW.Vendors.GetAllVendors());
         }
+        //get the 
         [HttpGet]
         public ActionResult Create()
         {
