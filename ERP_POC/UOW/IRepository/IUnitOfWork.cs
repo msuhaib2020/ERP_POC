@@ -9,6 +9,7 @@ namespace ERP_POC.UOW.IRepository
 {
     public interface IUnitOfWork : IDisposable
     {
+        //iunit work
         IUserLogInRepository UserLogIns { get; }
         IVendorRepository Vendors { get; }
         int SaveChanges();
